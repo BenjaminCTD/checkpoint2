@@ -1,0 +1,87 @@
+main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding-top: 15rem;
+    background-color: #1D1B1B;
+}
+
+.section-informacoes-joker {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.div-do-h1-descricao-joker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:50%;
+    gap: 15px;
+}
+.div-do-h1-estrela {
+    width: 100%;
+}
+
+.div-diretor-escritores {
+    justify-content: flex-start;
+    gap: 15px;
+    display: flex;
+    margin-top: 30px;
+    width: 50%;
+}
+
+.biografia{
+  text-align: justify;
+}
+
+.div-do-trailer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+iframe{
+  width: 100%;
+}
+
+
+  /*----- Scale nas estrelas---------- */
+
+  .rotate-scale-up:hover {
+	-webkit-animation: rotate-scale-up 0.65s linear both;
+	        animation: rotate-scale-up 0.65s linear both;
+}
+
+@-webkit-keyframes rotate-scale-up {
+    0% {
+      -webkit-transform: scale(1) rotateZ(0);
+              transform: scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(2) rotateZ(180deg);
+              transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateZ(360deg);
+              transform: scale(1) rotateZ(360deg);
+    }
+  }
+  @keyframes rotate-scale-up {
+    0% {
+      -webkit-transform: scale(1) rotateZ(0);
+              transform: scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(2) rotateZ(180deg);
+              transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateZ(360deg);
+              transform: scale(1) rotateZ(360deg);
+    }
+  }
+

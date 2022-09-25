@@ -1,0 +1,14 @@
+.section-do-banner {
+    /* background-image: url(../imagens/joker-banner.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    height: 300px;
+    width: 100%;
+    
+}
+
+.carousel-item{
+    width: 80%;
+    height: 500px;
+} 

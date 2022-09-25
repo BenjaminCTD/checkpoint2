@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+    color: #fff;
+}
+
+body {
+    background-color: gray;
+}
+.imagem-estrela {
+    height: 40px;
+}
+.todd-phillips {
+    color: #fff;
+    background-color: #2EBD59;
+}
+
+.todd-phillips:hover{
+    color: #fff;
+    font-weight: bold;
+    transition: 0.8s;
+}
+
+.h1-joker {
+    font-size: 2rem;
+}
+.p-diretor {
+    font-weight: bolder;
+}
+.p-escritores {
+    font-weight: bolder;
+}
+
+.d-block{
+    height: 100%;
+}
